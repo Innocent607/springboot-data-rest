@@ -1,0 +1,7 @@
+2024-03-09 15:14:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPLOYEES" not found (this database is empty); SQL statement:
+INSERT INTO EMPLOYEES (ID, FIRST_NAME, LAST_NAME, EMAIL) 
+VALUES
+(1, 'Gregory', 'Hughes', 'GregoryHughes@armyspy.com'),
+(2, 'Frank', 'Clarke', 'FrankClarke@armyspy.com'),
+(3, 'Susan', 'Moore', 'SusanMoore@armyspy.com') [42104-214]
